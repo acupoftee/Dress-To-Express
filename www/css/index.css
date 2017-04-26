@@ -136,3 +136,14 @@ input[type=range] {
 ::-moz-input-placeholder {
     color: #fff;
 }
+
+#dressButton {
+    padding: 12px 40px;
+    display: inline-block;
+    margin-left: -7px;
+    margin-bottom: 0px;
+}
+
+#backButton {
+    background-color: #34485E;
+}
