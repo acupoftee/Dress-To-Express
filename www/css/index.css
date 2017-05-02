@@ -146,4 +146,100 @@ input[type=range] {
 
 #backButton {
     background-color: #34485E;
+    color: #FFFFFF;
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    font-size: 24pt;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    height: 71px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+#sendButton {
+    background-color: #34485E;
+    color: #E68A3A;
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    font-size: 18pt;
+    font-weight: 300;
+    padding: 12px 80px;
+    display: inline-block;
+    width: 80%;
+    letter-spacing: 1px;
+    outline: none;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+li {
+    background-color: #FFFFFF;
+    color: #AD64CB;
+    border: none;
+    font-family: inherit;
+    font-size: 18pt;
+    font-weight: 300;
+    padding: 12px 80px;
+    margin: 15px 30px;
+    letter-spacing: 1px;
+    outline: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#weatherPage {
+    background-color: #E68A3A;
+    height: 548px;
+}
+
+#inputDiv {
+    width: 100%;
+}
+
+#messageInput {
+    background-color: #E68A3A;
+    color: #FFFFFF;
+    text-align: center center;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 2px #FFFFFF;
+    transition: border 0.3s;
+    font-family: inherit;
+    font-weight: 300;
+    margin: 0 auto;
+    display: block;
+}
+
+.focus {
+    border-bottom: solid 2px #FFFFFF;
+}
+
+#resultFiv {
+    background-color: inherit;
+    color: #FFFFFF;
+     border: none;
+    font-family: inherit;
+    font-size: 18pt;
+    font-weight: 300;
+    padding: 0px;
+    margin: 15px 30px;
+    letter-spacing: 1px;
+    outline: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
 }
